@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side {
+  width: 35%;
+  height: 100%;
+  background-image: url('fern.jpg');
+  background-size: cover;
+  background-position: cover; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.right-side {
+  width: 65%;
+  height: 100%;
+  
+}
+
+.banner {
+  height: 150px;
+  background-color: black;
+  opacity: 60%;
+  margin-top: 154px;
+  
+}
+
+.credit {
+  color: white;
+  margin-bottom: 10 px;
+  align-self: center;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.top {
+  background-color: rgb(211, 211, 211);
+  height: 33.33vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.middle {
+  height: 33.33vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom {
+  height: 33.33vh;
+  background-color: rgb(211, 211, 211);
+  
+}
+
+.top-text {
+  max-width: 600px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 25px; 
+  padding-left: 30px;
+  margin-top: 20px;
+  
+}
+
+
+
+.form-header h1 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; 
+  font-size: 24px; 
+  padding-left: 30px;
+}
+
+.form-row {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  padding-bottom: 20px;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 150; 
+ 
+  
+}
+
+input {
+  padding: 4px;
+  border: 1px solid #E5E7EB;
+}
+
+input[type="password"]:invalid {
+  border: 1px solid red;
+  
+}
+
+input:focus {
+  border: 1px solid blue;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  
+  
+}
+
+
+form {
+  display: flex;
+  gap: 30px;
+}
+
+button[type="submit"] {
+  padding: 10px 40px; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  border-radius: 8px;
+  background-color: #596D48;
+  color: white;
+  border: none;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.bottom-text {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 525;
+}
+
+a {
+  text-decoration: none;
+  color:  #596D48; 
+}

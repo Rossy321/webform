@@ -15,7 +15,7 @@ body {
 .left-side {
   width: 35%;
   height: 100%;
-  background-image: url('fern.jpg');
+  background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
   background-size: cover;
   background-position: cover; 
   display: flex;

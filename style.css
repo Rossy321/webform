@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+@font-face {
+  font-family: 'Norse Bold';
+  src: url(./fonts/Norse-Bold.otf);
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -32,10 +37,21 @@ body {
 
 .banner {
   height: 150px;
-  background-color: black;
-  opacity: 60%;
-  margin-top: 154px;
+  background-color:rgba(0, 0, 0, 0.6);;
+  margin-top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
+}
+
+.logo{
+  font-family: 'Norse Bold';
+  color: white;
+  font-size: 100px;
+  
+  
+
 }
 
 .credit {

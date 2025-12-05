@@ -21,8 +21,7 @@ body {
   width: 35%;
   height: 100%;
   background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
-  background-size: cover;
-  background-position: cover; 
+  background-size: cover; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -47,11 +46,14 @@ body {
 
 .logo{
   font-family: 'Norse Bold';
+  background-image: url(images/odin-lined.png);
+  background-size: 90px;
+  background-repeat: no-repeat; 
+  background-position: left;
   color: white;
   font-size: 100px;
+  padding: 20px 0 20px 100px;
   
-  
-
 }
 
 .credit {
@@ -152,7 +154,7 @@ button[type="submit"] {
   color: white;
   border: none;
   margin-left: 30px;
-  margin-top: 20px;
+  margin-top: 20px
 }
 
 .bottom-text {
